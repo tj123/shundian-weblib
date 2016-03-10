@@ -33,7 +33,7 @@ public class BeanTest {
 	public static void main(String[] args) {
 		UserDto dto = new UserDto();
 		try {
-			dto.setPhone("13689006323");
+			dto.setPhone("13689005323");
 			dto.replaceNull();
 			User user = null;
 			dto.setBirthday("2015-11-25 12:23:00");
